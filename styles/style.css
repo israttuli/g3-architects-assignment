@@ -1,27 +1,51 @@
 /* Font added */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto+Mono&family=Roboto:wght@500&family=Work+Sans&display=swap');
 
-.body {
-    
+* {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
 }
 
-/* .container {
-    /* width: 1440px; */
-    /* text-align: center;
-} */ 
+/* Nav styles */
+nav {
+    display: flex;
+    background: rgba(255, 144, 14, 0.1);
+    justify-content: space-between;
+    padding:50px 220px;
+}
+
+.nav-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item {
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    padding-left:50px;
+}
 
 /* banner styles */
 
-.banner{
+.banner {
     background: rgba(255, 144, 14, 0.1);
     text-align: center;
-   
+    padding-bottom: 50px;
 }
 
 .banner-title {
+    color: #131313;
     font-weight: 700;
     font-size: 64px;
+    padding-top: 50px;
 }
 
 .banner-description {

@@ -1,0 +1,47 @@
+/* Font added */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto+Mono&family=Roboto:wght@500&family=Work+Sans&display=swap');
+
+.body {
+    
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* .container {
+    /* width: 1440px; */
+    /* text-align: center;
+} */ 
+
+/* banner styles */
+
+.banner{
+    background: rgba(255, 144, 14, 0.1);
+    text-align: center;
+   
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-description {
+    color: #727272;
+    padding: 33px;
+}
+
+.primary-btn {
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0px;
+    padding: 25px 20px;
+    margin-bottom: 50px;
+}
+
+#banner-img {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+}

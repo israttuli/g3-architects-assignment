@@ -11,26 +11,28 @@ nav {
     display: flex;
     background: rgba(255, 144, 14, 0.1);
     justify-content: space-between;
-    padding:50px 220px;
+    padding: 50px 220px;
 }
 
 .nav-title {
     color: #131313;
     font-weight: 700;
     font-size: 45px;
-    
+
 }
-.nav-items{
+
+.nav-items {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .nav-item {
     list-style: none;
     font-weight: 500;
     font-size: 18px;
     color: #424242;
-    padding-left:50px;
+    padding-left: 50px;
 }
 
 /* banner styles */
@@ -69,3 +71,41 @@ nav {
     height: 700px;
     border-radius: 8px;
 }
+
+
+/* Feature styles */
+.feature-section {
+    margin: 80px ;
+    align-items: center;
+}
+
+.feature-section,
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature {
+    width: 342px;
+    height: 342px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.gray-text,.feature-description {
+    color: #727272;
+}
+
+.orange-text {
+    color: #FF900E;
+}
+.feature-description{
+    padding: 28px;
+}
+
+/* Fact styles */

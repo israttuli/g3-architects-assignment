@@ -14,7 +14,7 @@ nav {
     padding: 50px 220px;
 }
 
-.nav-title {
+.section-title {
     color: #131313;
     font-weight: 700;
     font-size: 45px;
@@ -92,26 +92,17 @@ nav {
     height: 342px;
 }
 
-.feature-title,
-.fact-title {
-    font-weight: 700;
-    font-size: 45px;
-    color: #131313;
+.section-description {
+    color: #727272;
+    padding: 28px;
 }
 
-.gray-text,
-.feature-description,
-.fact-description {
+.gray-text {
     color: #727272;
 }
 
 .orange-text {
     color: #FF900E;
-}
-
-.feature-description,
-.fact-description {
-    padding: 28px;
 }
 
 /*  */
@@ -121,7 +112,8 @@ nav {
 }
 
 /* Fact styles */
-.facts {
+.facts,
+.sponsor-img {
     display: flex;
     justify-content: space-evenly;
 }
@@ -149,4 +141,16 @@ nav {
     color: #727272;
     font-weight: 600;
     font-size: 20px;
+}
+
+/* sponsors */
+
+.sponsor {
+    text-align: center;
+}
+
+
+.sponsor-img {
+    padding-top: 22px;
+    filter: grayscale(100%);
 }

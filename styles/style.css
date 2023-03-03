@@ -248,7 +248,7 @@ input[type='submit'] {
 /* Responsive layout styles*/
 
 @media screen and (max-width:576px) {
-    nav,.nav-items, .facts,.sponsor-img{
+    nav,.nav-items,.facts,.sponsor-img,.contact-us{
         flex-direction: column;
         padding: 5px;
     }
